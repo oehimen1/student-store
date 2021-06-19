@@ -6,7 +6,7 @@ router.get("/", async (req, res, next) => {
     console.log("Here I am")
   try {
     const products = await Store.listProducts()
-    res.status(200).json({ products })
+    res.status(200).json({products})
   } catch (err) {
     next(err)
   }

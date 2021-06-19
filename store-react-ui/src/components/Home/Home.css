@@ -1,0 +1,146 @@
+
+.storeTitleBox{
+    position: absolute;
+    width: 1024px;
+    height: 138px;
+    left: 150px;
+    top: 60px;
+    bottom:200px;
+
+}
+
+.storeTitle{
+    position: absolute;
+width: 783px;
+height: 126px;
+left: 143px;
+top: 26px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+
+color: #000000;
+}
+
+.feedArea{
+    position: absolute;
+width: 1404px;
+height: 655px;
+left: 25px;
+top: 400px;
+
+}
+
+.feed{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 250px);
+        justify-content: space-evenly;
+        /* margin:1rem 1rem; */
+   
+}
+
+.product-info{
+     display:flex;
+        flex-wrap: wrap;
+       /* justify-content: space-evenly; */
+}
+
+.product-img{
+    width: 233px;
+   height: 147px;
+}
+
+.product-details{
+    width: 233px;
+height: 175px;
+left: calc(50% - 233px/2 - 6.5px);
+top: 174px;
+    /* width: 233px;
+height: 175px;
+left: 31px;
+top: 181px; */
+}
+
+.retail-img{
+    width: 220px;
+height: 147px;
+image-rendering:pixelated;
+}
+
+.product-name{
+    /* position: absolute; */
+width: 176px;
+height: 30px;
+left: 20px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+
+.product-description{
+    width: 235px;
+height: 64px;
+left: -2px;
+top: 47px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+}
+
+.description-container{
+    width: 218px;
+height: 57px;
+left: 2px;
+top: 52px;
+}
+
+.product-description-text{
+    width: 163px;
+height: 20px;
+left: 33px;
+top: 144px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+
+.product-price{
+    width: 163px;
+    height: 20px;
+    left: 33px;
+    top: 55px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* line-height: 23px; */
+    text-align: center;
+
+}
+
+.product-link{
+    text-decoration: none;
+}

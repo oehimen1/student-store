@@ -1,0 +1,44 @@
+.NavBarRect{
+    position: absolute;
+width: 1440px;
+height: 122px;
+left: 0px;
+top: 0px;
+
+background:#ffc8dd;
+}
+
+.NavBarFrame{
+    position: absolute;
+width: 1253px;
+height: 66px;
+left: 41px;
+top: 16px;
+
+}
+
+.navhome{
+position: absolute;
+width: 118px;
+height: 56px;
+left: 26px;
+top: 10px;
+
+}
+
+
+.navabout{
+    position: absolute;
+width: 116px;
+height: 74px;
+left: 626px;
+top: 9px;
+}
+
+.navcart{
+position: absolute;
+width: 108px;
+height: 42px;
+left: 1145px;
+top: 24px;
+}
