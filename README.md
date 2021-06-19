@@ -29,7 +29,7 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`<img src = "http://g.recordit.co/011zVR1frc.gif"/>`
+`http://g.recordit.co/011zVR1frc.gif`
 
 ### Reflection
 
