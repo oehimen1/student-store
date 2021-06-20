@@ -28,8 +28,8 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 - [ ] Allow users to use an input to filter orders by the email of the person who placed the order.
 
 ### Walkthrough Video
+<img src="http://g.recordit.co/IDOKSHlyDB.gif" alt="Project-Gif" width=300/>
 
-`http://g.recordit.co/011zVR1frc.gif`
 
 ### Reflection
 
@@ -48,6 +48,8 @@ Completing the backend was definitely a success! The React -frontend- was defini
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
+
+
 I used Figma for the first time in this project:
 https://www.figma.com/file/4z1IS8BMUxWQrmTH96JXYy/Store?node-id=0%3A1
 
