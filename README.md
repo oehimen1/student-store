@@ -28,7 +28,7 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 - [ ] Allow users to use an input to filter orders by the email of the person who placed the order.
 
 ### Walkthrough Video
-<img src="http://g.recordit.co/IDOKSHlyDB.gif" alt="Project-Gif" width=600 height=400/>
+<img src="http://g.recordit.co/IDOKSHlyDB.gif" alt="Project-Gif" width=700 height=600/>
 
 
 ### Reflection
