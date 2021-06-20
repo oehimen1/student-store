@@ -3,144 +3,153 @@
     position: absolute;
     width: 1024px;
     height: 138px;
-    left: 150px;
-    top: 60px;
+    left: 170px;
+    top: 100px;
     bottom:200px;
+    display: flex;
+   
+}
 
+.lollipop1{
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    margin-right: 0px;
+}
+
+.lollipop2{
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 0px;
 }
 
 .storeTitle{
     position: absolute;
-width: 783px;
-height: 126px;
-left: 143px;
-top: 26px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 84px;
-text-align: center;
-
-color: #000000;
+    width: 783px;
+    height: 126px;
+    left: 130px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #a2d2ff;
 }
 
 .feedArea{
     position: absolute;
-width: 1404px;
-height: 655px;
-left: 25px;
-top: 400px;
-
+    width: 1404px;
+    height: 655px;
+    left: 20px;
+    top: 400px;
+    
 }
 
 .feed{
-    
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 250px);
-        justify-content: space-evenly;
-        /* margin:1rem 1rem; */
-   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content:space-evenly;
 }
 
 .product-info{
-     display:flex;
-        flex-wrap: wrap;
-       /* justify-content: space-evenly; */
+    display:flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 5px dotted #cdb4db;
+    border-radius: 24px;
+    width: 304px;
+    height: 350px;
+    left: 49px;
+    right:50px;
+    margin-bottom: 50px;
 }
 
-.product-img{
-    width: 233px;
-   height: 147px;
+/* .product-img{
+    width: 260px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+} */
+
+.retail-img{
+    width: 255px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 0px;
+    image-rendering:pixelated;
+    text-align: justify;
 }
 
 .product-details{
-    width: 233px;
-height: 175px;
-left: calc(50% - 233px/2 - 6.5px);
-top: 174px;
-    /* width: 233px;
-height: 175px;
-left: 31px;
-top: 181px; */
-}
-
-.retail-img{
-    width: 220px;
-height: 147px;
-image-rendering:pixelated;
+    margin:2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    left: calc(50% - 233px/2);
+    top: calc(50% - 175px/2 + 57px);
+    align-content: center;
+    width: 120px;
 }
 
 .product-name{
-    /* position: absolute; */
-width: 176px;
-height: 30px;
-left: 20px;
-top: 0px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #000000;
-}
-
-.product-description{
-    width: 235px;
-height: 64px;
-left: -2px;
-top: 47px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
-text-align: center;
-}
-
-.description-container{
-    width: 218px;
-height: 57px;
-left: 2px;
-top: 52px;
-}
-
-.product-description-text{
-    width: 163px;
-height: 20px;
-left: 33px;
-top: 144px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #000000;
-}
-
-.product-price{
-    width: 163px;
+    width: 300px;
     height: 20px;
-    left: 33px;
-    top: 55px;
-    
+    margin-bottom: 30px;
+    left: 20px;
+    top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    /* line-height: 23px; */
+    line-height: 23px;
     text-align: center;
+    color: #000000;
+}
 
+.description-container{
+    width: 218px;
+    height: 57px;
+    left: 2px;
+    top: 52px;
+}
+
+.product-description-text{
+    width: 163px;
+    height: 20px;
+    left: 33px;
+    top: 144px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.product-price{
+    width: 300px;
+    height: 20px;
+    left: 30px;
+    top: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    text-decoration-style: none;
 }
 
 .product-link{
     text-decoration: none;
+    border-radius: 10px;
+    
 }

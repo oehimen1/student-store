@@ -32,16 +32,17 @@ export default function App() {
 
   //console.log(products)
   return (
-    <BrowserRouter>
+    
     <div className="App">
+      <BrowserRouter>
       <Navbar />
       <Routes>
          <Route path="/" element={ <Home products={products}/> }/>
-         <Route path="/store/:productId" element={ < Product /> }/>
+         <Route path="/store/:productId" element={<Product />}/>
       </Routes>
-      
+      </BrowserRouter>
     </div>
-    </BrowserRouter>
+    
   );
 }
 

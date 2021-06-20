@@ -16,6 +16,14 @@ left: 41px;
 top: 16px;
 
 }
+.homelink{
+    width: 118px;
+height: 56px;
+left: 26px;
+top: 10px;
+text-decoration: none;
+color: black;
+}
 
 .navhome{
 position: absolute;

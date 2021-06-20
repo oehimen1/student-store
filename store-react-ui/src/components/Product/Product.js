@@ -39,17 +39,17 @@ export default function ProductDetail(){
 
     return(
         <div className="product">
-            <div className="product-info">
-              <div className="product-body">
-                  <div className="product-image-container">
-                     <img className="product-img"src={product.image} alt="product"/>
+            <div className="info">
+              <div className="body">
+                  <div className="image-container">
+                     <img className="img"src={product.image} alt="product"/>
                   </div>
-                  <div className = "product-info-container">
-                    <div>{product?.name}</div> 
-                    <div className="product-description-container">
-                        <div>{product.description}</div> 
+                  <div className = "info-container">
+                    <div className="name">~{product?.name}~</div> 
+                    <div className="description-container">
+                        <div className="description">{product.description}</div> 
                     </div>
-                    <div>{product.price}</div> 
+                    <div className="price">${product.price}</div> 
                   </div>
               </div>
               {renderProductContent()}
