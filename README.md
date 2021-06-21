@@ -29,8 +29,8 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 <img src="http://g.recordit.co/IDOKSHlyDB.gif" alt="Project-Gif" width=900 height=500/>
-<img src = "http://g.recordit.co/aEiWuuQqRd.gif" alt="Single-Product" width = 900 height=500>
-<img src= "http://g.recordit.co/v9t3b2vrBG.gif" alt="API-Data" width=900 height=500>
+<img src = "http://g.recordit.co/aEiWuuQqRd.gif" alt="Single-Product" width = 900 height=500/>
+<img src= "http://g.recordit.co/v9t3b2vrBG.gif" alt="API-Data" width=900 height=500/>
 
 
 ### Reflection
